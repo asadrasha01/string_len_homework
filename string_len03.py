@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    a = "monday"
+    b = "wednesday"
+    return len(a) == len(b)

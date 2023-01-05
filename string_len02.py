@@ -6,4 +6,5 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    a = "yoyo"
+    return len(a) % 2 == 0

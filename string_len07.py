@@ -8,4 +8,14 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    odd_length_strings = []
+    if len(s1) % 2 == 1:
+        odd_length_strings.append(s1)
+    if len(s2) % 2 == 1:
+        odd_length_strings.append(s2)
+    if len(s3) % 2 == 1:
+        odd_length_strings.append(s3)
+    if len(odd_length_strings) == 0:
+        return "[]"
+    else:
+        return str(odd_length_strings)
