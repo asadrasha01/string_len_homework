@@ -8,4 +8,5 @@ def main(s):
     Returns:
         bool: answer
     """
+    s = "cff"
     return s[0] == s[2]

@@ -9,5 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
+    num1 = "12" 
+    num2 = "5"
     sum = int(num1) + int(num2)
     return str(sum)

@@ -8,6 +8,7 @@ def main(s):
     Returns:
         str: answer
     """
+    s = "abcdf"
     mid = len(s) // 2
     if len(s) % 2 == 0:
         return s[mid-1:mid+1]

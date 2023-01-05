@@ -7,6 +7,8 @@ def main(s1,s2):
     Returns:
         shortest string
     """
+    s1="code" 
+    s2="python"
     if len(1) < len(2):
         return s1
     else:

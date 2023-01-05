@@ -6,4 +6,5 @@ def main(s):
     Returns:
         string
     """
+    s="code"
     return "*" * len(s)

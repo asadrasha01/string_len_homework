@@ -6,5 +6,5 @@ def main(a):
     Returns:
         length of string
     """
-    a = "hello"
+    a = "python"
     return len(a)
